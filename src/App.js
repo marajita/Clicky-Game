@@ -24,7 +24,7 @@ class App extends Component {
     if (AnimeAlreadyClicked) {
       this.setState({
         anime: this.state.anime.sort(function(a, b) {
-          return 0.5 - Math.random();
+          return Math.random() - 0.5;
         }),
         clickedAnime: [],
         score: 0
@@ -36,7 +36,7 @@ class App extends Component {
       this.setState(
         {
           anime: this.state.anime.sort(function(a, b) {
-            return 0.5 - Math.random();
+            return Math.random() - 0.5;
           }),
           clickedAnime: this.state.clickedAnime.concat(
             currentAnime
