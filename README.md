@@ -4,4 +4,3 @@ This app is a front-end game built with React.js. The user's goal is to click on
 # Play using the link below
 [Heroku](https://clicky-anime.herokuapp.com/)
 
-# Demo
